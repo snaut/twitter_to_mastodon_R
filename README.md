@@ -2,7 +2,9 @@
 
 This repository includes some R scripts to help with the migration from twitter to mastodon. I mainly wrote them for my own use, but feel free to use them.
 
-Pleas be considerate with the ammount of requests you make to APIs.
+Please be considerate with the ammount of requests you make to APIs.
+
+The scripts are somewhat limited because `rtweet` currently does not support the latest twitter API, so for example, searching for mastodon usernames in pinned tweets does not work.
 
 Everything provided as is without any warranty, etc.
 
