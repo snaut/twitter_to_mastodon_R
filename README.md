@@ -15,3 +15,4 @@ Download the scripts and source them in your favourite R console. The scripts ar
 ## Scripts
 
 * `find_mastodon_users_on_twitter.R` searches for mastodon usernames formatted as `@user@instance` or strings containing known mastodon instances in twitter usernames, twitter bios and twitter description entities and outputs a csv that can be imported in mastodon.
+* `delete_all_tweets.R` deletes all tweets from your downloaded twitter archive. Includes code to get tweets from twitter API instead of archive. Can also be used to delete only tweets matching criteria, just add your criteria.
